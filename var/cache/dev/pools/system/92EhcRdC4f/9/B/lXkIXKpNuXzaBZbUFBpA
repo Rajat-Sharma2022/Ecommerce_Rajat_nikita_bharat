@@ -1,0 +1,3 @@
+<?php //Pimcore%255CBundle%255CDataHubBundle%255CController%255CConfigController%2523buildItem
+
+return [PHP_INT_MAX, []];

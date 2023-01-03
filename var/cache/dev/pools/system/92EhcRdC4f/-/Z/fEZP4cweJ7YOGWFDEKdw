@@ -1,0 +1,3 @@
+<?php //OutputDataConfigToolkitBundle%255CController%255CClassController
+
+return [PHP_INT_MAX, []];

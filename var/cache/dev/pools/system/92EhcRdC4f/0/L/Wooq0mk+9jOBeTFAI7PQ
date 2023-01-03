@@ -1,0 +1,27 @@
+<?php //Pimcore%255CBundle%255CEcommerceFrameworkBundle%255CController%255CPricingController%2523saveOrderAction
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Symfony\\Component\\Routing\\Annotation\\Route'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Routing\\Annotation\\Route')),
+    ],
+    null,
+    [
+        'Symfony\\Component\\Routing\\Annotation\\Route' => [
+            'path' => [
+                '/save-order',
+            ],
+            'name' => [
+                'pimcore_ecommerceframework_pricing_save-order',
+            ],
+            'methods' => [
+                [
+                    'PUT',
+                ],
+            ],
+        ],
+    ],
+    [
+        $o[0],
+    ],
+    []
+); }];

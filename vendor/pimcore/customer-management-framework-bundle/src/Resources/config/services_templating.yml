@@ -1,0 +1,9 @@
+services:
+    # twig extensions
+    CustomerManagementFrameworkBundle\Twig\Extension\CmfFrontendUtilsExtension:
+        autowire: true
+        tags: [ 'twig.extension' ]
+
+    CustomerManagementFrameworkBundle\Twig\Extension\CmfUrlUtilsExtension:
+        autowire: true
+        tags: [ 'twig.extension' ]

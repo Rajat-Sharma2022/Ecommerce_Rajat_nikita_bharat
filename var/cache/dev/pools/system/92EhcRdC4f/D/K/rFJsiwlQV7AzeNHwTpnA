@@ -1,0 +1,3 @@
+<?php //OutputDataConfigToolkitBundle%255CController%255CClassController%2523getClassificationDisplayMode
+
+return [PHP_INT_MAX, []];

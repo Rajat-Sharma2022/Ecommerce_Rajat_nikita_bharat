@@ -1,0 +1,3 @@
+<?php //CustomerManagementFrameworkBundle%255CController%255CAdmin%255CCustomers%255CFilterDefinitionController%2523getAllowedUserIdsFromRequest
+
+return [PHP_INT_MAX, []];

@@ -1,0 +1,3 @@
+<?php //App%255CController%255CContentController%2523tenantSwitchesAction
+
+return [PHP_INT_MAX, []];

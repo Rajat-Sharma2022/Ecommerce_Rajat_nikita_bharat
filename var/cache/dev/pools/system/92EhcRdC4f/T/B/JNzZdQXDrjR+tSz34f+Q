@@ -1,0 +1,28 @@
+<?php //CustomerManagementFrameworkBundle%255CController%255CAdmin%255CSettingsController%2523userManagementAction
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Symfony\\Component\\Routing\\Annotation\\Route'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Routing\\Annotation\\Route')),
+    ],
+    null,
+    [
+        'Symfony\\Component\\Routing\\Annotation\\Route' => [
+            'path' => [
+                '/settings/webservice-users',
+            ],
+            'name' => [
+                '_pimcore_customermanagementframework_backend_settings_webservice_users',
+            ],
+            'methods' => [
+                [
+                    'GET',
+                    'POST',
+                ],
+            ],
+        ],
+    ],
+    [
+        $o[0],
+    ],
+    []
+); }];

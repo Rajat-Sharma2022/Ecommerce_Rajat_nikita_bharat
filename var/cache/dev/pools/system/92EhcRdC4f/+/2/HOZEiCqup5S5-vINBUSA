@@ -1,0 +1,32 @@
+<?php //App%255CController%255CContentController%2523portalAction
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Pimcore\\Controller\\Configuration\\ResponseHeader'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Pimcore\\Controller\\Configuration\\ResponseHeader')),
+        clone $p['Pimcore\\Controller\\Configuration\\ResponseHeader'],
+    ],
+    null,
+    [
+        'Pimcore\\Controller\\Configuration\\ResponseHeader' => [
+            'key' => [
+                'X-Custom-Header',
+                'X-Custom-Header2',
+            ],
+            'values' => [
+                [
+                    'Foo',
+                    'Bar',
+                ],
+                'Bazinga',
+            ],
+            'replace' => [
+                1 => true,
+            ],
+        ],
+    ],
+    [
+        $o[0],
+        $o[1],
+    ],
+    []
+); }];

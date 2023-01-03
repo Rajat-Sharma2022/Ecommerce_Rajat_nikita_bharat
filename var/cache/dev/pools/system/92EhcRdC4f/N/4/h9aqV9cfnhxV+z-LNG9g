@@ -1,0 +1,3 @@
+<?php //CustomerManagementFrameworkBundle%255CController%255CRest%255CAbstractRestController%2523createCollectionSuccessResponse
+
+return [PHP_INT_MAX, []];

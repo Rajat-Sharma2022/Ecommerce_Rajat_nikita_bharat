@@ -1,0 +1,28 @@
+{
+  "name": "pimcore/payment-provider-paypal-smart-payment-button",
+  "license": "GPL-3.0+",
+  "type": "pimcore-bundle",
+  "description": "Pimcore Payment Provider - Paypal Smart Payment Button",
+  "config": {
+    "sort-packages": true
+  },
+  "require": {
+    "paypal/paypal-checkout-sdk": "^1",
+    "pimcore/pimcore": "^10.0.0"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^1.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pimcore\\Bundle\\EcommerceFrameworkBundle\\": "src/"
+    }
+  },
+  "extra": {
+    "pimcore": {
+      "bundles": [
+        "Pimcore\\Bundle\\EcommerceFrameworkBundle\\PimcorePaymentProviderPayPalSmartPaymentButtonBundle"
+      ]
+    }
+  }
+}

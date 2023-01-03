@@ -1,0 +1,3 @@
+<?php //CustomerManagementFrameworkBundle%255CController%255CAdmin%255CSettingsController%2523isAllowed
+
+return [PHP_INT_MAX, []];

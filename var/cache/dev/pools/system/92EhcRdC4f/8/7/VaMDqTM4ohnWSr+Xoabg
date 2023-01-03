@@ -1,0 +1,3 @@
+<?php //CustomerManagementFrameworkBundle%255CController%255CAdmin%255CCustomersController%2523addPrefilteredSegmentToFilters
+
+return [PHP_INT_MAX, []];

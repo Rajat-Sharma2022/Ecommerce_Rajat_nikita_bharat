@@ -1,0 +1,23 @@
+{
+  "name": "pimcore/object-merger",
+  "type": "pimcore-bundle",
+  "license": "GPL-3.0-or-later",
+  "config": {
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Pimcore\\Bundle\\ObjectMergerBundle\\": "src"
+    }
+  },
+  "require": {
+    "pimcore/pimcore": "^6.9 || ^10.0"
+  },
+  "extra": {
+    "pimcore": {
+      "bundles": [
+        "Pimcore\\Bundle\\ObjectMergerBundle\\ObjectMergerBundle"
+      ]
+    } 
+  }
+}

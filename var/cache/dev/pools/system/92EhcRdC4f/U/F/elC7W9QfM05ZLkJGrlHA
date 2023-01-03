@@ -1,0 +1,3 @@
+<?php //CustomerManagementFrameworkBundle%255CController%255CAdmin%255CCustomersController%2523getFilterDefinition
+
+return [PHP_INT_MAX, []];

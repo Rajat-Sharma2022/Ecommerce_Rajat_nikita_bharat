@@ -1,0 +1,3 @@
+<?php //App%255CController%255CContentController%2523thumbnailsAction
+
+return [PHP_INT_MAX, []];

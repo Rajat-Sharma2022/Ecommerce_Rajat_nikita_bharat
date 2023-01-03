@@ -1,0 +1,14 @@
+services:
+    _defaults:
+        public: false
+        autowire: true
+        autoconfigure: true
+
+    Pimcore\Bundle\EcommerceFrameworkBundle\PaymentManager\Payment\PayPalSmartPaymentButton:
+        arguments:
+            $options: []
+        tags:
+            - { name: pimcore_ecommerce.payment.provider, key: 'paypal' }
+
+    Pimcore\Bundle\EcommerceFrameworkBundle\PayPalSmartPaymentButton\Installer:
+        public: true

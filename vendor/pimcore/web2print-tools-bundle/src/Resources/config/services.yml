@@ -1,0 +1,21 @@
+services:
+
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    Web2PrintToolsBundle\Twig\OutputChannelExtension:
+        tags: ['twig.extension']
+
+
+    Web2PrintToolsBundle\Controller\:
+        resource: '../../Controller'
+        tags: ['controller.service_arguments']
+
+
+    Web2PrintToolsBundle\Tools\Installer:
+        public: true
+        arguments:
+            # fetch the bundle via expression language
+            $bundle: "@=service('kernel').getBundle('Web2PrintToolsBundle')"

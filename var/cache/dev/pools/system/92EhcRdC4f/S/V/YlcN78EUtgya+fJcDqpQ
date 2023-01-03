@@ -1,0 +1,3 @@
+<?php //OutputDataConfigToolkitBundle%255CController%255CAdminController%2523doGetAttributeLabels
+
+return [PHP_INT_MAX, []];
